@@ -5,9 +5,10 @@
     height:46px;
     border-radius:28px;
     color:black;
-    line: 0;
     border-color: white;
     mso-font-info-type: auto;
+    font-size: 22px;
+    text-indent:25px
 }
 
 .wholebackground{
@@ -51,7 +52,7 @@
     position: relative;
     display:inline;
     margin-top: 88px;
-    margin-left: 80px;
+    margin-left: 55px;
     float: left;
     color: black;
     opacity: 1;
@@ -61,7 +62,7 @@
     position: relative;
     display:inline;
     margin-top: 168px;
-    margin-left: 80px;
+    margin-left: 55px;
     float: left;
     color: black;
     opacity: 1;
@@ -71,7 +72,7 @@
     position: relative;
     display: inline;
     margin-top: 328px;
-    margin-left: 80px;
+    margin-left: 55px;
     float: left;
     color: black;
     font-size: 24px;
@@ -80,7 +81,7 @@
 .clearfloatOptionValue4 {
     position: relative;
     margin-top: 442px;
-    margin-left: 72px;
+    margin-left: 46px;
     float: left;
     width:782px;/*设定宽度*/ height:110px;/*设置高度*/
     border-radius:28px;
@@ -89,7 +90,7 @@
 }
 .reason{
 position: relative;
-margin-left: 430px;
+margin-left: 400px;
 margin-top: 400px;
 }
 
@@ -135,7 +136,7 @@ margin-top: 400px;
     position: relative;
     display:inline;
     margin-top: 248px;
-    margin-left: 80px;
+    margin-left: 55px;
     float: left;
     color: black;
     opacity: 1;
@@ -160,23 +161,25 @@ select {
       background: url(../Images/报名入口设计稿_0000s_0001s_0002_下拉箭头.png) no-repeat 240px ;
   //通过定位将图标放在合适的位置no-repeat x px;
   position: relative;
-    pacity: 1;
+    opacity: 1;
   //给自定义的图标实现点击下来功能
   pointer-events: none;
     background-color: ghostwhite;
+    font-size: 17px;
   }
 
 .upload {
     position: relative;
     margin-top: 272px;
-    margin-left: 672px;
+    margin-left: 647px;
     color: black;
+    font-size: 17px;
 }
 
 .submit{
     position: absolute;
     margin-top: 800px;
-    margin-left: 900px;
+    margin-left: 890px;
     width: 100px;
 }
 
@@ -185,4 +188,12 @@ select {
     background:url(../Images/报名入口设计稿_0000s_0004s_0001_按钮.png);
     border-radius:0px;
     font-size: 20px;
+    text-indent:0px
 }
+
+.addition{
+    text-indent:25px<!首行缩进25px>
+}
+
+
+
